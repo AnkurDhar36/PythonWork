@@ -1,0 +1,20 @@
+HEART DISEASE DETECTION MODEL SUMMARY
+==================================================
+
+Best Model: SVM
+Features Used: age, sex, chest_pain_type, resting_bp, cholesterol, fasting_blood_sugar, resting_ecg, max_heart_rate, exercise_angina, st_depression, st_slope
+
+Model Performance:
+--------------------
+
+Logistic Regression:
+  Cross-validation accuracy: 0.649 ± 0.032
+  Test accuracy: 0.595
+
+Random Forest:
+  Cross-validation accuracy: 0.600 ± 0.014
+  Test accuracy: 0.560
+
+SVM:
+  Cross-validation accuracy: 0.630 ± 0.023
+  Test accuracy: 0.620
